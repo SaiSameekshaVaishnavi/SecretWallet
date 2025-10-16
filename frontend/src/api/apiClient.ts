@@ -1,7 +1,7 @@
 // src/api/apiClient.ts
 import axios from "axios";
 
-const API_BASE_URL = "http://localhost:5000/api"; // Change if deployed
+const API_BASE_URL = "https://secretwallet.onrender.com/api"; // Change if deployed
 
 export const apiClient = axios.create({
   baseURL: API_BASE_URL,
